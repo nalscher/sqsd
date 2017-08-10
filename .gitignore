@@ -17,3 +17,4 @@ node_modules/
 .directory
 *.pyc
 *.orig
+/.project

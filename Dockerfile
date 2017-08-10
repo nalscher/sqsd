@@ -1,6 +1,4 @@
-FROM node:4
-
-MAINTAINER Aleksandr Popov  <mogadanez@gmail.com>
+FROM node:4-alpine
 
 # Create sqsd directory
 WORKDIR /
@@ -15,4 +13,3 @@ RUN npm install
 
 # Run sqsd
 CMD ["node", "run-cli.js"]
-
